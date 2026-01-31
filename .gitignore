@@ -1,8 +1,13 @@
-data/raw/
-data/processed/
+# Data files
+data/raw/*.csv
+data/raw/*.xlsx
+
+# Trained models
 models/
+
+# Python cache
 __pycache__/
-*.pkl
-*.csv
-*.xlsx
+*.pyc
+
+# Environment
 .env
